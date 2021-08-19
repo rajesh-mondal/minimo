@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    border: 1px solid #333;
+    margin: 0 auto;
+}
