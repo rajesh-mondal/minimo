@@ -9,8 +9,11 @@ body{
     width: 1140px;
     margin: 0 auto;
 }
+.pd-70{
+    padding: 70px 0;
+}
 header{
-    padding: 15px 0;
+    padding: 35px 0 20px;
 }
 .header-wrapper{
     overflow: auto;
@@ -41,3 +44,28 @@ header{
     text-decoration: none;
     color: #626262;
 }
+
+/* banner part start here */
+.banner img{
+    width: 100%;
+}
+/* banner part end here */
+
+/* weeked text start here */
+.tag, .comment{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 20px;
+}
+.title{
+    color: #626262;
+    font-size: 44px;
+}
+.description{
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+.comment{
+    text-decoration: none;
+}
+/* weeked text end here */
