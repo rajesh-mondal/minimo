@@ -7,6 +7,37 @@ body{
 }
 .container{
     width: 1140px;
-    border: 1px solid #333;
     margin: 0 auto;
+}
+header{
+    padding: 15px 0;
+}
+.header-wrapper{
+    overflow: auto;
+}
+.logo{
+    float: left;
+    max-width: 200px;
+}
+.logo img{
+    max-width: 100%;
+    display: block;
+    padding: 10px;
+}
+.nav{
+    float: right;
+    width: 750px;
+}
+.nav-menu{
+    list-style-type: none;
+}
+.nav-menu li{
+    float: left;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-left: 87px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #626262;
 }
