@@ -59,13 +59,39 @@ header{
 }
 .title{
     color: #626262;
-    font-size: 44px;
+    font-size: 40px;
 }
 .description{
     line-height: 1.7;
     margin-bottom: 40px;
+    text-align: justify;
+    font-size: 14pt;
 }
 .comment{
     text-decoration: none;
 }
 /* weeked text end here */
+
+/* blog start here */
+.post{
+    width: 48%;
+}
+.post img{
+    width: 100%;
+    margin-bottom: 28px;
+}
+.row{
+    overflow: auto;
+    margin-bottom: 70px;
+}
+.post-left{
+    float: left;
+}
+.post-right{
+    float: right;
+}
+.post-title{
+    margin: 15px 0;
+    font-size: 40px;
+}
+/* blog end here */
