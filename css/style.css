@@ -127,3 +127,10 @@ form{
     transform: translateY(-50%);
 }
 /* newsletter section end here */
+.btn{
+    padding: 20px 30px;
+    border: 1px solid #626262;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
