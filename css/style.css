@@ -134,3 +134,33 @@ form{
     font-size: 20px;
     font-family: 'Playfair Display', serif;
 }
+/* footer section start here */
+footer{
+    background-color: #f0f0f0;
+    padding: 35px 0;
+}
+.footer-wrap{
+    overflow: auto;
+}
+.footer-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.footer-menu li{
+    float: left;
+    margin-right: 10px;
+}
+.footer-menu li a{
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-left{
+    float: left;
+}
+.footer-right{
+    float: right;
+}
+/* footer section end here */
